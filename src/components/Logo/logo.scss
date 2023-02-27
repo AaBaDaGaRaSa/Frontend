@@ -1,0 +1,22 @@
+.logo {
+  min-width: fit-content;
+  color: #fff;
+  img {
+    width: 3.5rem;
+    margin-right: 0.4rem;
+  }
+
+  .town {
+    color: orange;
+  }
+
+  p {
+    font-size: 0.5rem;
+    color: #fff;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+}
