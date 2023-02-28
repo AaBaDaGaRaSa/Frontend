@@ -1,15 +1,9 @@
-import slider01 from "../assets/SliderTaco.png";
+// import slider01 from "../assets/SliderTaco.png";
 import slider02 from "../assets/SliderTaco2.png";
 import slider03 from "../assets/SliderTaco3.png";
 import slider04 from "../assets/SliderTaco4.png";
 
 const sliderDetails = [
-  {
-    id: "01",
-    name: "We have simple and delicious food for you",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
-    image: slider01,
-  },
   {
     id: "02",
     name: "We believe good food over great smile",
