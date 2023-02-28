@@ -2,6 +2,8 @@ import "./App.css";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Home from "./pages/Home/Home";
+import Menu from "./components/Menu/Menu";
+import About from "./pages/About/About";
 
 import {
   createBrowserRouter,
@@ -25,6 +27,14 @@ const App = () => {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "about",
+      element: <About />,
+    },
+    {
+      path: "menu",
+      element: <Menu />,
     },
     {
       path: "login",

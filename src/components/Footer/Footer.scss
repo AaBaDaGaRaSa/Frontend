@@ -1,0 +1,19 @@
+.footer {
+  padding-bottom: 20;
+  border: none;
+  outline: none;
+
+  .footer-link-title {
+    color: #fff;
+  }
+  .link-item {
+    border: none;
+    padding-left: 0;
+    background: transparent;
+    color: #fff;
+
+    i {
+      color: #fff;
+    }
+  }
+}

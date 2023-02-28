@@ -21,10 +21,10 @@ const Navbar = () => {
                 <Hyperlink to="/">Home</Hyperlink>
               </li>
               <li className="nav-item">
-                <Hyperlink to="">About</Hyperlink>
+                <Hyperlink to="about">About</Hyperlink>
               </li>
               <li className="nav-item">
-                <Hyperlink to="">Menu</Hyperlink>
+                <Hyperlink to="menu">Menu</Hyperlink>
               </li>
               <li className="nav-item">
                 <Hyperlink to="">Orders</Hyperlink>
