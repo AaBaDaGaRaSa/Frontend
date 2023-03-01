@@ -2,6 +2,7 @@ import "./App.css";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Home from "./pages/Home/Home";
+import Cart from './components/Cart/Cart'
 
 import {
   createBrowserRouter,
@@ -25,6 +26,10 @@ const App = () => {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "cart",
+      element: <Cart />,
     },
     {
       path: "login",
