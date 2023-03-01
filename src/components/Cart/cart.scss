@@ -32,4 +32,27 @@
     height: 20px;
     font-size: 0.6rem;
   }
+
+  .card-container {
+    margin-left: 100px;
+    padding-left: 190px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+.headerdiv {
+    border: 1px solid white;
+    height: 200x;
+    margin-top: 20vh;
+    margin-bottom: 80vh;
+    width: 400px;
+    float: left;
+    margin-left:15vh;
+    border-radius:10px;
 }
+
+
+}
+
+

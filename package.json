@@ -11,12 +11,14 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "reactstrap": "^9.1.6",
     "remixicon": "^2.5.0",
     "slick-carousel": "^1.8.1",
     "styled": "^1.0.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0"
   }
 }
